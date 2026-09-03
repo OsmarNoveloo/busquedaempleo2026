@@ -50,15 +50,3 @@ CV y sugerir un borrador de carta de presentacion).
    ```
 
 6. Abre [http://localhost:3000](http://localhost:3000).
-
-## Roadmap
-
-- [ ] Conectar `src/lib/ai.ts` a la API de Anthropic o OpenAI para
-      analizar la vacante pegada en el formulario (streaming de la
-      respuesta con Suspense).
-- [ ] Boton "Analizar con IA" en cada tarjeta, usando la descripcion
-      guardada.
-- [ ] Drag and drop real entre columnas (hoy el cambio de estado es con
-      un select, a proposito, para no complicar el MVP).
-- [ ] Notas por aplicacion (el campo `notes` ya existe en la base de
-      datos).
