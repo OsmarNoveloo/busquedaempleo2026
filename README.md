@@ -9,8 +9,7 @@ Buscar trabajo implica juntar decenas de vacantes en distintos estados
 el contexto de cada una. Esta app es un tablero tipo kanban para llevar
 ese seguimiento dia a dia, con una arquitectura lista para agregar
 analisis de vacantes con IA (comparar la descripcion del puesto contra tu
-CV y sugerir un borrador de carta de presentacion) en cuanto tengas una
-API key de Anthropic u OpenAI.
+CV y sugerir un borrador de carta de presentacion).
 
 ## Stack y decisiones
 
