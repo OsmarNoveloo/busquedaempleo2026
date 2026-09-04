@@ -2,6 +2,7 @@
 
 import type { ApplicationStatus, JobApplication } from "@/lib/types";
 import { STATUS_COLUMNS } from "@/lib/types";
+import { AiAnalysis } from "@/components/AiAnalysis";
 
 export function ApplicationCard({
   application,
@@ -52,6 +53,8 @@ export function ApplicationCard({
           </option>
         ))}
       </select>
+
+      <AiAnalysis jobDescription={application.job_description} />
     </div>
   );
 }

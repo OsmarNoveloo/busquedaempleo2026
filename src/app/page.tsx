@@ -2,6 +2,7 @@ import { getSupabaseServerClient } from "@/lib/supabase/server";
 import type { JobApplication } from "@/lib/types";
 import { KanbanBoard } from "@/components/KanbanBoard";
 import { NewApplicationForm } from "@/components/NewApplicationForm";
+import { JobSearch } from "@/components/JobSearch";
 
 export const dynamic = "force-dynamic";
 
@@ -59,6 +60,8 @@ export default async function Home() {
           Tu busqueda de empleo, organizada.
         </p>
       </header>
+
+      <JobSearch />
 
       <NewApplicationForm />
 
